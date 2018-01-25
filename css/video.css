@@ -1,0 +1,98 @@
+   #mapinfo {
+       width: 100%;
+            height: 80%;
+
+        overflow:  visible;
+        position: absolute;
+      }
+    #re{
+     border: 1px solid #de5e5a;
+     left: 50px;
+     right: 50px;
+      margin: 0 auto;
+       padding: 0;
+       position:absolute; /*fixed*/
+      width: 600 px;
+     height: 500 px;
+
+      width: 100%;
+      height: 20%;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+     flex: 1;
+     display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    }
+      #resultado{
+     
+    }
+    h8{
+        font-size: .50rem;
+    display: block;
+      font-style: normal;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: .1rem;
+    line-height: 1;
+    }
+   
+    #titulo{
+    font-style: normal;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    }
+    #cargando{
+        display: none;
+      }
+
+   .videos{
+    /* border: 1px solid #de5e5a;
+      margin: 40 auto;
+       padding: 10%;
+       position: fixed;
+       width: 100px;
+      height: 100px;*/
+    }
+     .video{
+        flex: 1.2;
+         max-width: 100%;
+         height: auto;
+         width: auto/9; /* Bug de ie8 */
+        /* position: relative;
+        top: 120px;
+        right: 100px;
+        width: 300px;
+        height: 200px;*/
+        /*float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;*/
+        }
+      html,
+      body {
+        height: 100%;
+        margin: 00;
+        padding: 00;
+      }
+      #re{
+          float:none1;
+      }

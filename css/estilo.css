@@ -1,0 +1,12 @@
+body { background: #f5c9c5; }
+header { margin-top: 30px; }
+header a { color: black; text-decoration: none; }
+header a:hover { text-decoration: none; }
+form { margin-top: 10px; }
+form, #resultados { border-bottom-left-radius:  0 0px; }
+.item { margin-right: 25px; }
+.w100 { width: 30%; }
+
+.btn-primary { background: #952b2b; border-color: #957575; }
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { 
+    background: #782b2b; border-color: #952b2b; }
